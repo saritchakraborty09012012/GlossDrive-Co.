@@ -1,0 +1,14 @@
+{
+  "name": "line-detail-co",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scroll-driven 300-frame car wash sequence site with a car-wash loading animation",
+  "scripts": {
+    "start": "node server.js",
+    "start:slow": "set \"IMG_DELAY_MS=400\" && node server.js",
+    "test": "node test/test.js"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.56.1"
+  }
+}

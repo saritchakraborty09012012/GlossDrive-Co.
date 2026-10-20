@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en" class="is-loading">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>LINE DETAIL CO. — Premium Car Care</title>
+<meta name="description" content="Line Detail Co. — snow foam washes, paint correction and ceramic coatings. Watch the full detailing sequence, then book your slot.">
+<meta name="theme-color" content="#06070a">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 3C10 12 6 17 6 22a10 10 0 0 0 20 0c0-5-4-10-10-19z' fill='%235ab7ff'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ LOADER : 2D CAR WASH ============ -->
+<div id="loader" role="status" aria-live="polite" aria-label="Loading images">
+  <div class="wash">
+
+    <div class="wash__brand">
+      <span class="wash__logo">LINE</span>
+      <span class="wash__sub">DETAIL CO.</span>
+    </div>
+
+    <div class="stage" aria-hidden="true">
+      <div class="stage__glow"></div>
+      <div class="bay"></div>
+
+      <svg class="car" viewBox="0 0 440 170">
+        <defs>
+          <linearGradient id="paint" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#f0f4fa"/>
+            <stop offset=".55" stop-color="#c4cdd9"/>
+            <stop offset="1" stop-color="#8d98a8"/>
+          </linearGradient>
+          <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#2b333e"/>
+            <stop offset="1" stop-color="#12161c"/>
+          </linearGradient>
+          <linearGradient id="shineGrad" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+            <stop offset=".5" stop-color="#fff" stop-opacity=".95"/>
+            <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+          </linearGradient>
+          <clipPath id="bodyClip">
+            <path d="M34,118 C24,106 26,94 40,86 L130,70 C148,52 168,44 196,42 L268,42 C296,44 316,54 332,68 L402,84 C416,88 422,96 422,106 L422,116 L34,118 Z"/>
+          </clipPath>
+        </defs>
+
+        <ellipse class="car__shadow" cx="226" cy="150" rx="200" ry="11"/>
+
+        <path class="car__body" d="M34,118 C24,106 26,94 40,86 L130,70 C148,52 168,44 196,42 L268,42 C296,44 316,54 332,68 L402,84 C416,88 422,96 422,106 L422,116 L34,118 Z"/>
+        <path class="car__glass" d="M141,74 L197,47 L265,47 L319,70 Z"/>
+        <path class="car__creases" d="M44,88 L128,73 M336,72 L398,86"/>
+        <path class="car__lamp f" d="M31,95 L54,91 L56,100 L33,103 Z"/>
+        <path class="car__lamp r" d="M404,92 L419,94 L419,102 L404,101 Z"/>
+
+        <circle class="well" cx="118" cy="116" r="35"/>
+        <circle class="well" cx="332" cy="116" r="35"/>
+
+        <g class="wheel" transform="translate(118,116)">
+          <circle r="30" fill="#14161b" stroke="#282d35" stroke-width="2"/>
+          <circle r="15.5" fill="none" stroke="#cfd6e0" stroke-width="3"/>
+          <circle r="4.5" fill="#cfd6e0"/>
+          <g stroke="#cfd6e0" stroke-width="2.6" stroke-linecap="round">
+            <line x1="0" y1="-5" x2="0" y2="-14"/>
+            <line x1="0" y1="-5" x2="0" y2="-14" transform="rotate(72)"/>
+            <line x1="0" y1="-5" x2="0" y2="-14" transform="rotate(144)"/>
+            <line x1="0" y1="-5" x2="0" y2="-14" transform="rotate(216)"/>
+            <line x1="0" y1="-5" x2="0" y2="-14" transform="rotate(288)"/>
+          </g>
+        </g>
+        <g class="wheel" transform="translate(332,116)">
+          <circle r="30" fill="#14161b" stroke="#282d35" stroke-width="2"/>
+          <circle r="15.5" fill="none" stroke="#cfd6e0" stroke-width="3"/>
+          <circle r="4.5" fill="#cfd6e0"/>
+          <g stroke="#cfd6e0" stroke-width="2.6" stroke-linecap="round">
+            <line x1="0" y1="-5" x2="0" y2="-14"/>
+            <line x1="0" y1="-5" x2="0" y2="-14" transform="rotate(72)"/>
+            <line x1="0" y1="-5" x2="0" y2="-14" transform="rotate(144)"/>
+            <line x1="0" y1="-5" x2="0" y2="-14" transform="rotate(216)"/>
+            <line x1="0" y1="-5" x2="0" y2="-14" transform="rotate(288)"/>
+          </g>
+        </g>
+
+        <g class="foam" clip-path="url(#bodyClip)">
+          <ellipse cx="90"  cy="95"  rx="55" ry="30"/>
+          <ellipse cx="170" cy="82"  rx="60" ry="34"/>
+          <ellipse cx="250" cy="76"  rx="64" ry="34"/>
+          <ellipse cx="330" cy="90"  rx="60" ry="32"/>
+          <ellipse cx="400" cy="102" rx="46" ry="27"/>
+          <ellipse cx="62"  cy="114" rx="46" ry="24"/>
+          <ellipse cx="210" cy="106" rx="70" ry="30"/>
+          <ellipse cx="300" cy="110" rx="60" ry="27"/>
+          <circle  cx="145" cy="62"  r="27"/>
+          <circle  cx="282" cy="58"  r="29"/>
+        </g>
+
+        <g class="shine" clip-path="url(#bodyClip)">
+          <rect x="-100" y="-20" width="70" height="220" fill="url(#shineGrad)" transform="rotate(-14)"/>
+        </g>
+      </svg>
+
+      <div class="brush brush--a"><span class="brush__roller"></span></div>
+      <div class="brush brush--b"><span class="brush__roller"></span></div>
+
+      <span class="bub" style="--x:14%;--s:11px;--d:0s;--t:2.7s"></span>
+      <span class="bub" style="--x:28%;--s:7px;--d:.5s;--t:2.3s"></span>
+      <span class="bub" style="--x:42%;--s:14px;--d:1.1s;--t:3.1s"></span>
+      <span class="bub" style="--x:55%;--s:8px;--d:.2s;--t:2.5s"></span>
+      <span class="bub" style="--x:67%;--s:12px;--d:1.6s;--t:2.9s"></span>
+      <span class="bub" style="--x:78%;--s:6px;--d:.9s;--t:2.2s"></span>
+      <span class="bub" style="--x:88%;--s:10px;--d:2s;--t:2.6s"></span>
+
+      <span class="drop" style="--x:20%;--d:0s"></span>
+      <span class="drop" style="--x:36%;--d:.45s"></span>
+      <span class="drop" style="--x:52%;--d:.9s"></span>
+      <span class="drop" style="--x:64%;--d:.25s"></span>
+      <span class="drop" style="--x:80%;--d:1.15s"></span>
+
+      <div class="suds">
+        <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      </div>
+      <div class="floor"></div>
+    </div>
+
+    <div class="meter">
+      <div class="meter__row">
+        <span id="phase">PRE-SOAK</span>
+        <span id="pct">0%</span>
+      </div>
+      <div class="track"><div class="fill" id="fill"></div></div>
+      <div class="meter__sub"><span id="count">0 / 300 images</span> · PREPARING YOUR SEQUENCE</div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ============ NAV ============ -->
+<header class="nav show" id="nav">
+  <a class="nav__brand" href="#top">
+    <span class="nav__logo">LINE</span>
+    <span class="nav__tag">DETAIL CO.</span>
+  </a>
+  <nav class="nav__links" id="navLinks">
+    <a href="#top">HOME</a>
+    <a href="#services">SERVICES</a>
+    <a href="#process">PROCESS</a>
+    <a href="#packages">PACKAGES</a>
+    <a href="#book">CONTACT</a>
+  </nav>
+  <div class="nav__act">
+    <a class="btn btn--light btn--sm nav__cta" href="#book">BOOK NOW</a>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">
+      <i></i><i></i>
+    </button>
+  </div>
+</header>
+
+<div class="menu" id="menu" aria-hidden="true">
+  <nav class="menu__links">
+    <a href="#top">HOME</a>
+    <a href="#services">SERVICES</a>
+    <a href="#process">PROCESS</a>
+    <a href="#packages">PACKAGES</a>
+    <a href="#book">CONTACT</a>
+  </nav>
+  <div class="menu__foot">
+    <span>+91 98765 43210</span>
+    <span>hello@linedetail.co</span>
+  </div>
+</div>
+
+<main id="site">
+
+  <!-- ============ PART 1 : VIDEO PLAYER ============ -->
+  <section class="hero" id="top">
+    <div class="player" id="player">
+      <div class="frames" id="frames"></div>
+      <audio id="bgAudio" src="audio/track.mp3" preload="auto" loop></audio>
+      <div class="player__grad"></div>
+
+      <div class="player__hint" id="hint">
+        <span class="hint__txt">SCROLL TO PLAY</span>
+        <span class="hint__mouse"><i></i></span>
+      </div>
+
+      <div class="controls" id="controls">
+        <button class="ctl ico" id="btnPlay" type="button" aria-label="Play">
+          <svg class="i-play" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 2.5v11l9-5.5z" fill="currentColor"/></svg>
+          <svg class="i-pause" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 2.5h3v11H4zm5 0h3v11H9z" fill="currentColor"/></svg>
+        </button>
+        <span class="ctl-time" id="time">00:00 / 00:10</span>
+        <div class="ctl-track" id="track" role="slider" tabindex="0" aria-label="Seek" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+          <div class="ctl-buf"></div>
+          <div class="ctl-fill" id="ctlFill"><span class="ctl-knob"></span></div>
+        </div>
+        <span class="ctl-idx" id="ctlIdx">001 / 300</span>
+        <button class="ctl ico" id="btnMute" type="button" aria-label="Mute">
+          <svg class="i-vol" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M2 6v4h2.6L8 13V3L4.6 6H2z" fill="currentColor"/>
+            <path d="M10.2 5.4a3.4 3.4 0 0 1 0 5.2M12 3.6a6 6 0 0 1 0 8.8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+          </svg>
+          <svg class="i-mute" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M2 6v4h2.6L8 13V3L4.6 6H2z" fill="currentColor"/>
+            <path d="M10.5 6l4 4m0-4l-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+        <button class="ctl ico" id="btnFs" type="button" aria-label="Fullscreen">
+          <svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M2 6V2h4M14 6V2h-4M2 10v4h4M14 10v4h-4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ INTRO ============ -->
+  <section class="sec intro" id="about">
+    <div class="wrap intro__grid">
+      <div class="intro__copy rv">
+        <p class="eyebrow">PAINT PROTECTION</p>
+        <h2 class="h-display">WATER CAN'T STICK.</h2>
+        <p class="lede">
+          Line Detail Co. guards your paint with multi-layer ceramic systems engineered
+          to repel water, road film and UV. A 112° contact angle, five years of durability
+          and 9H surface hardness — showroom gloss that survives monsoon, highway and
+          everything in between.
+        </p>
+        <div class="btn-row">
+          <a class="btn btn--light" href="#book">BOOK NOW</a>
+          <a class="btn btn--ghost" href="#services">DISCOVER</a>
+        </div>
+      </div>
+      <div class="intro__media slide-card" id="introMedia">
+        <div class="media-card media-card--tall">
+          <div class="photo photo--seq" id="introSeq" aria-hidden="true"></div>
+          <div class="stat-strip">
+            <div class="stat-strip__i"><b>112°</b><span>CONTACT ANGLE</span></div>
+            <div class="stat-strip__i"><b>5 YRS</b><span>DURABILITY</span></div>
+            <div class="stat-strip__i"><b>9H</b><span>HARDNESS</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="sec" id="services">
+    <div class="wrap">
+      <div class="sec__head rv">
+        <p class="eyebrow">WHAT WE DO</p>
+        <h2 class="h-display">SERVICES BUILT<br>AROUND YOUR CAR.</h2>
+      </div>
+      <div class="svc-grid">
+        <article class="svc rv">
+          <span class="svc__no">01</span>
+          <span class="svc__ico">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M12 3s6 6.6 6 11a6 6 0 0 1-12 0c0-4.4 6-11 6-11z" stroke="currentColor" stroke-width="1.6"/></svg>
+          </span>
+          <h3>SNOW FOAM WASH</h3>
+          <p>pH-neutral pre-soak blankets the paint, lifting grit before a single mitt touches the panel.</p>
+          <span class="svc__go">→</span>
+        </article>
+        <article class="svc rv">
+          <span class="svc__no">02</span>
+          <span class="svc__ico">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M4 12h9a3 3 0 1 0-3-3M4 16h13a3 3 0 1 1-3 3M4 8h5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </span>
+          <h3>SPOT-FREE RINSE</h3>
+          <p>Filtered, de-ionised water dries mineral-free — no water spots, no towel marring.</p>
+          <span class="svc__go">→</span>
+        </article>
+        <article class="svc rv">
+          <span class="svc__no">03</span>
+          <span class="svc__ico">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.2" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.6"/><path d="M12 3.8v5M12 15.2v5M3.8 12h5M15.2 12h5" stroke="currentColor" stroke-width="1.6"/></svg>
+          </span>
+          <h3>WHEEL &amp; TYRE</h3>
+          <p>Barrel brushes, ph-balanced wheel acid and tyre dressing — hubs that look freshly cast.</p>
+          <span class="svc__go">→</span>
+        </article>
+        <article class="svc rv">
+          <span class="svc__no">04</span>
+          <span class="svc__ico">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M12 4l1.6 4.4L18 10l-4.4 1.6L12 16l-1.6-4.4L6 10l4.4-1.6L12 4z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M18 16.5l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8.8-2.2z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+          </span>
+          <h3>PAINT CORRECTION</h3>
+          <p>Multi-stage machine polishing removes swirls and oxidation, restoring true depth.</p>
+          <span class="svc__go">→</span>
+        </article>
+        <article class="svc rv">
+          <span class="svc__no">05</span>
+          <span class="svc__ico">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M12 3l7 2.6v5.1c0 4.4-3 8.1-7 9.3-4-1.2-7-4.9-7-9.3V5.6L12 3z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 12l2.2 2.2L15.5 10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <h3>CERAMIC COATING</h3>
+          <p>9H silica layers with hydrophobic topcoats — gloss that outlasts the warranty card.</p>
+          <span class="svc__go">→</span>
+        </article>
+        <article class="svc rv">
+          <span class="svc__no">06</span>
+          <span class="svc__ico">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M6 20v-4a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3v4M8 13V6.5A2.5 2.5 0 0 1 10.5 4h3A2.5 2.5 0 0 1 16 6.5V13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </span>
+          <h3>INTERIOR DEEP CLEAN</h3>
+          <p>Hot-water extraction, steam and leather conditioning — cabin air you can feel.</p>
+          <span class="svc__go">→</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROCESS ============ -->
+  <section class="sec sec--alt" id="process">
+    <div class="wrap">
+      <div class="sec__head sec__head--row rv">
+        <div>
+          <p class="eyebrow">THE PROCESS</p>
+          <h2 class="h-display">EIGHT STEPS.<br>ZERO SHORTCUTS.</h2>
+        </div>
+        <div class="rail-nav">
+          <button class="rail-btn" id="railPrev" type="button" aria-label="Previous step">←</button>
+          <button class="rail-btn" id="railNext" type="button" aria-label="Next step">→</button>
+        </div>
+      </div>
+    </div>
+    <div class="rail" id="rail">
+      <article class="step step--photo">
+        <div class="step__img" style="background-image:url('images/ezgif-frame-040.jpg')"></div>
+        <div class="step__meta"><span>01</span><h3>SNOW FOAM</h3><p>Thick pH-neutral foam dwells and dissolves road film before contact.</p></div>
+      </article>
+      <article class="step step--photo">
+        <div class="step__img" style="background-image:url('images/ezgif-frame-080.jpg')"></div>
+        <div class="step__meta"><span>02</span><h3>SPOT-FREE RINSE</h3><p>De-ionised water sheets clean and dries without a single mineral mark.</p></div>
+      </article>
+      <article class="step step--photo">
+        <div class="step__img" style="background-image:url('images/ezgif-frame-185.jpg')"></div>
+        <div class="step__meta"><span>03</span><h3>WHEEL &amp; TYRE</h3><p>Barrels, spokes and arches brushed clean, then tyres dressed satin black.</p></div>
+      </article>
+      <article class="step step--type">
+        <div class="step__big">04</div>
+        <div class="step__meta"><span>04</span><h3>CLAY DECON</h3><p>Grade-true clay lifts tar, rail dust and fallout the wash left behind.</p></div>
+      </article>
+      <article class="step step--type">
+        <div class="step__big">05</div>
+        <div class="step__meta"><span>05</span><h3>PAINT CORRECTION</h3><p>Dual-action polishing in stages removes swirls, etching and holograms.</p></div>
+      </article>
+      <article class="step step--type">
+        <div class="step__big">06</div>
+        <div class="step__meta"><span>06</span><h3>COMPOUND &amp; GLOSS</h3><p>Fine jewelers’ polish refines the finish to a wet, mirror-level gloss.</p></div>
+      </article>
+      <article class="step step--type">
+        <div class="step__big">07</div>
+        <div class="step__meta"><span>07</span><h3>CERAMIC SHIELD</h3><p>9H silica coating laid in layers, IR-cured and topped with a slick sealant.</p></div>
+      </article>
+      <article class="step step--photo">
+        <div class="step__img" style="background-image:url('images/ezgif-frame-240.jpg')"></div>
+        <div class="step__meta"><span>08</span><h3>INTERIOR EXTRACTION</h3><p>Hot water extraction pulls dirt from fabric; leather is fed and protected.</p></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ STATS ============ -->
+  <section class="stats">
+    <div class="wrap stats__grid">
+      <div class="stat rv"><b data-count="12400" data-suffix="+">0</b><span>WASHES DELIVERED</span></div>
+      <div class="stat rv"><b data-count="98" data-suffix="%">0</b><span>5-STAR REVIEWS</span></div>
+      <div class="stat rv"><b data-count="7" data-suffix=" YRS">0</b><span>DETAILING CRAFT</span></div>
+      <div class="stat rv"><b data-count="45" data-suffix=" MIN">0</b><span>EXPRESS SLOT</span></div>
+    </div>
+  </section>
+
+  <!-- ============ SHOWROOM AT HOME ============ -->
+  <section class="sec showroom">
+    <div class="wrap showroom__grid">
+      <div class="showroom__copy rv">
+        <p class="eyebrow">MOBILE DETAILING</p>
+        <h2 class="h-display">SHOWROOM<br>AT HOME.</h2>
+        <p class="lede">
+          Our bay rolls up to your driveway — full water supply, lighting and extraction gear
+          on board. Book an evening slot and wake up to a car that looks factory-fresh.
+        </p>
+        <div class="btn-row">
+          <a class="btn btn--light" href="#book">BOOK NOW</a>
+          <a class="btn btn--ghost" href="#packages">VIEW PACKAGES</a>
+        </div>
+      </div>
+      <div class="showroom__media rv">
+        <div class="media-card">
+          <div class="photo photo--showroom"></div>
+        </div>
+        <div class="dots"><i class="on"></i><i></i><i></i><i></i></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PACKAGES ============ -->
+  <section class="sec sec--alt" id="packages">
+    <div class="wrap">
+      <div class="sec__head rv">
+        <p class="eyebrow">PACKAGES</p>
+        <h2 class="h-display">PICK YOUR SHINE.</h2>
+      </div>
+      <div class="pkg-grid">
+        <article class="pkg rv">
+          <p class="pkg__name">ESSENTIAL</p>
+          <p class="pkg__price"><span>₹</span>1,499</p>
+          <p class="pkg__note">45-minute express slot</p>
+          <ul>
+            <li>Snow foam pre-wash</li>
+            <li>Two-bucket contact wash</li>
+            <li>Wheels, arches &amp; tyres</li>
+            <li>Interior vacuum + glass</li>
+            <li>3-month spray sealant</li>
+          </ul>
+          <a class="btn btn--ghost btn--full" href="#book">CHOOSE ESSENTIAL</a>
+        </article>
+        <article class="pkg pkg--pop rv">
+          <span class="pkg__badge">MOST POPULAR</span>
+          <p class="pkg__name">PREMIUM</p>
+          <p class="pkg__price"><span>₹</span>3,999</p>
+          <p class="pkg__note">Half-day detail</p>
+          <ul>
+            <li>Everything in Essential</li>
+            <li>Clay bar decontamination</li>
+            <li>6-month ceramic sealant</li>
+            <li>Leather clean &amp; condition</li>
+            <li>Engine bay wipe-down</li>
+          </ul>
+          <a class="btn btn--light btn--full" href="#book">CHOOSE PREMIUM</a>
+        </article>
+        <article class="pkg rv">
+          <p class="pkg__name">CERAMIC SHIELD</p>
+          <p class="pkg__price"><span>₹</span>14,999</p>
+          <p class="pkg__note">2–3 day transformation</p>
+          <ul>
+            <li>Full paint correction</li>
+            <li>9H ceramic coating</li>
+            <li>5-year written warranty</li>
+            <li>Interior extraction + scent</li>
+            <li>Annual maintenance wash</li>
+          </ul>
+          <a class="btn btn--ghost btn--full" href="#book">CHOOSE SHIELD</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="sec">
+    <div class="wrap">
+      <div class="sec__head rv">
+        <p class="eyebrow">CLIENT NOTES</p>
+        <h2 class="h-display">WHAT OWNERS SAY.</h2>
+      </div>
+      <div class="quote-grid">
+        <blockquote class="quote rv">
+          <p>“They foamed, deconned and coated my S-Class in one visit. Rain now runs off like the car is made of glass.”</p>
+          <footer><b>ARJUN MEHTA</b><span>MERCEDES S-CLASS</span></footer>
+        </blockquote>
+        <blockquote class="quote rv">
+          <p>“Booked the mobile bay for 7pm. By breakfast the wheels looked cast yesterday and the cabin smelled new.”</p>
+          <footer><b>PRIYA NAIR</b><span>BMW 3 SERIES</span></footer>
+        </blockquote>
+        <blockquote class="quote rv">
+          <p>“Two years of monsoons later, the ceramic is still beading at a stupid angle. Worth every rupee.”</p>
+          <footer><b>ROHAN D'SOUZA</b><span>AUDI Q5</span></footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BOOKING ============ -->
+  <section class="sec sec--alt" id="book">
+    <div class="wrap book__grid">
+      <div class="book__copy rv">
+        <p class="eyebrow">BOOKING</p>
+        <h2 class="h-display">BOOK YOUR SLOT.</h2>
+        <p class="lede">Tell us the car and the shine you want — we confirm within 30 minutes during shop hours.</p>
+        <ul class="book__info">
+          <li><span>PHONE</span><a href="tel:+919876543210">+91 98765 43210</a></li>
+          <li><span>EMAIL</span><a href="mailto:hello@linedetail.co">hello@linedetail.co</a></li>
+          <li><span>STUDIO</span><b>Unit 7, Line Works, Andheri East</b></li>
+          <li><span>HOURS</span><b>Mon–Sat · 08:00 – 20:00</b></li>
+        </ul>
+      </div>
+      <form class="book__form rv" id="bookForm" novalidate>
+        <div class="field">
+          <label for="fName">YOUR NAME</label>
+          <input id="fName" name="name" type="text" placeholder="Rohan Sharma" required>
+        </div>
+        <div class="field field--half">
+          <div>
+            <label for="fPhone">PHONE</label>
+            <input id="fPhone" name="phone" type="tel" placeholder="+91 90000 00000" required>
+          </div>
+          <div>
+            <label for="fDate">PREFERRED DATE</label>
+            <input id="fDate" name="date" type="date" required>
+          </div>
+        </div>
+        <div class="field">
+          <label for="fService">SERVICE</label>
+          <select id="fService" name="service">
+            <option>Snow foam wash</option>
+            <option>Premium detail</option>
+            <option>Ceramic coating</option>
+            <option>Interior deep clean</option>
+            <option>Mobile bay at home</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="fMsg">CAR / NOTES</label>
+          <textarea id="fMsg" name="notes" rows="3" placeholder="2021 Camry, white — needs paint correction on the bonnet"></textarea>
+        </div>
+        <button class="btn btn--light btn--full" type="submit">REQUEST BOOKING</button>
+        <p class="form-ok" id="formOk" hidden>✓ Request received — we’ll call you shortly to confirm.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="foot">
+  <div class="wrap foot__grid">
+    <div class="foot__brand">
+      <span class="nav__logo">LINE</span>
+      <span class="nav__tag">DETAIL CO.</span>
+      <p>Premium car care, engineered. Foam, correction and ceramic — done in sequence, done right.</p>
+    </div>
+    <div class="foot__col">
+      <h4>EXPLORE</h4>
+      <a href="#top">Home</a>
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#packages">Packages</a>
+    </div>
+    <div class="foot__col">
+      <h4>CONTACT</h4>
+      <a href="tel:+919876543210">+91 98765 43210</a>
+      <a href="mailto:hello@linedetail.co">hello@linedetail.co</a>
+      <span>Unit 7, Line Works, Andheri East</span>
+      <span>Mon–Sat · 08:00 – 20:00</span>
+    </div>
+    <div class="foot__col">
+      <h4>FOLLOW</h4>
+      <a href="#top">Instagram</a>
+      <a href="#top">YouTube</a>
+      <a href="#top">X / Twitter</a>
+    </div>
+  </div>
+  <div class="wrap foot__bar">
+    <span>© 2026 LINE DETAIL CO. — ALL RIGHTS RESERVED</span>
+    <a href="#top">BACK TO TOP ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

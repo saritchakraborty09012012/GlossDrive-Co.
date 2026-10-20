@@ -1,0 +1,9 @@
+node_modules/
+test/artifacts/
+test/tmp-beads/
+testtmp-beads.trf
+Automotive_detailing_website_vid._20261019120359.mp3
+*.log
+.DS_Store
+Thumbs.db
+.env
